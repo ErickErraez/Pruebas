@@ -1,0 +1,78 @@
+<!--<ion-header>
+
+  <ion-navbar>
+    <ion-title>Temo Chat Theme fo Ionic</ion-title>
+  </ion-navbar>
+
+</ion-header>-->
+
+
+<ion-content padding>
+
+  <div id="logo" padding text-center>
+  </div>
+
+  <div padding>
+    <ion-segment  color="light">
+      <ion-segment-button value="signin">
+        Sign In
+      </ion-segment-button>
+      <ion-segment-button value="signup">
+        Sign Up
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div >
+    <form >
+
+          <ion-input type="email"  name="email"></ion-input>
+
+
+
+          <ion-input type="password" name="password"></ion-input>
+
+
+        <div padding text-center>
+          <button ion-button round color="light" icon-right>
+            {{ 'SIGNIN' | translate }} <ion-icon name="log-in"></ion-icon>
+          </button>
+        </div>
+
+
+    </form>
+
+    <form >
+      <ion-label>{{ 'Username' | translate }}</ion-label>
+          <ion-input type="text" name="username"></ion-input>
+
+
+      <ion-label float>{{ 'Fullname' | translate }}</ion-label>
+          <ion-input type="text"  name="fullname"></ion-input>
+
+
+
+          <ion-label float>{{ 'Email' | translate }}</ion-label>
+          <ion-input type="email"  name="email"></ion-input>
+
+
+          <ion-label float>{{ 'Password' | translate }}</ion-label>
+          <ion-input type="password"  name="password"></ion-input>
+
+
+
+          <ion-label float>{{ 'Retry Password' | translate }}</ion-label>
+          <ion-input type="password"  name="password"></ion-input>
+
+
+        <div padding text-center>
+          <button ion-button round color="light" icon-right>
+            {{ 'SIGNUP' | translate }} <ion-icon name="person-add"></ion-icon>
+          </button>
+        </div>
+
+
+    </form>
+
+  </div>
+</ion-content>
